@@ -37,7 +37,7 @@ This command will output an encrypted file named `file.txt.enc` and display the 
 To decrypt a file (`file.txt.enc`), use:
 
 ```bash
-python encriptador.py -e file.txt
+python crypter.py -e file.txt
 ```
 
 
@@ -49,7 +49,7 @@ python encriptador.py -e file.txt
 To decrypt a file (`file.txt.enc`):
 
 ```bash
-python encriptador.py -d file.txt.enc
+python crypter.py -d file.txt.enc
 ```
 
 - The program will prompt for the previously generated password.
